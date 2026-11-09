@@ -1,0 +1,12 @@
+# 2026 Quantum Accelerator - Day 1
+# Bake these into the Azure ML compute-instance setup script.
+pyqubo>=1.5.0
+dimod>=0.12.21
+dwave-samplers>=1.8.0
+ortools>=9.10
+networkx>=3.0
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.8
+# torch not needed: M6 factorization machine is pure NumPy
+requests         # needed for the SQBM+ demo client only
